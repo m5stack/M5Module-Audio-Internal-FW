@@ -1,0 +1,14 @@
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:603:22:LL_DMA_SetDataTransferDirection	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:654:22:LL_DMA_SetMode	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:701:22:LL_DMA_SetPeriphIncMode	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:748:22:LL_DMA_SetMemoryIncMode	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:796:22:LL_DMA_SetPeriphSize	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:845:22:LL_DMA_SetMemorySize	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:895:22:LL_DMA_SetChannelPriorityLevel	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h:1270:22:LL_DMA_SetPeriphRequest	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h:1777:22:LL_TIM_DisableARRPreload	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h:2494:22:LL_TIM_OC_DisableFast	9
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h:2546:22:LL_TIM_OC_EnablePreload	9
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h:921:22:LL_APB2_GRP1_EnableClock	1
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h:1135:22:LL_IOP_GRP1_EnableClock	1
+../Core/Src/tim.c:28:6:MX_TIM17_Init	1

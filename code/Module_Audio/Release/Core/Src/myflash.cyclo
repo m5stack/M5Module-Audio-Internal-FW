@@ -1,0 +1,16 @@
+../Core/Src/myflash.c:104:13:my_flash_write_double_word.constprop	1
+../Core/Src/myflash.c:30:9:my_flash_read_byte	1
+../Core/Src/myflash.c:39:10:my_flash_read_half_word	1
+../Core/Src/myflash.c:48:10:my_flash_read_word	1
+../Core/Src/myflash.c:57:10:my_flash_read_double_word	1
+../Core/Src/myflash.c:66:6:my_flash_earse_pages	1
+../Core/Src/myflash.c:87:6:my_flash_write_half_word	1
+../Core/Src/myflash.c:115:6:set_lin_mic_pc_en_status	2
+../Core/Src/myflash.c:129:6:set_hp_mode_status	2
+../Core/Src/myflash.c:143:6:set_rgb_light_status	2
+../Core/Src/myflash.c:157:6:set_i2c_addr	2
+../Core/Src/myflash.c:171:9:get_lin_mic_pc_en_status	1
+../Core/Src/myflash.c:175:9:get_hp_mode_status	1
+../Core/Src/myflash.c:179:9:get_rgb_light_status	1
+../Core/Src/myflash.c:183:9:get_i2c_addr	1
+../Core/Src/myflash.c:187:6:write_flash	4

@@ -1,0 +1,12 @@
+../Core/Src/RGB.c:21:6:activate_tim1_dma	1
+../Core/Src/RGB.c:40:6:set_rgb_color	7
+../Core/Src/RGB.c:71:6:reset_load	1
+../Core/Src/RGB.c:83:6:rgb_send_array	1
+../Core/Src/RGB.c:58:6:rgb_update	1
+../Core/Src/RGB.c:94:6:rgb_red	1
+../Core/Src/RGB.c:105:6:rgb_green	1
+../Core/Src/RGB.c:116:6:rgb_blue	1
+../Core/Src/RGB.c:127:6:rgb_white	1
+../Core/Src/RGB.c:138:6:rgb_close	1
+../Core/Src/RGB.c:149:6:rgb_close_all	1
+../Core/Src/RGB.c:15:6:rgb_init	1

@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm0plus.h:741:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm0plus.h:850:22:__NVIC_SetPriority	24	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_i2c.h:644:22:LL_I2C_EnableClockStretching	16	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_i2c.h:764:22:LL_I2C_DisableGeneralCall	16	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_i2c.h:875:22:LL_I2C_SetOwnAddress2	24	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_i2c.h:897:22:LL_I2C_DisableOwnAddress2	16	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_i2c.h:1879:22:LL_I2C_EnableAutoEndMode	16	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h:467:22:LL_APB1_GRP1_EnableClock	24	static
+../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h:1135:22:LL_IOP_GRP1_EnableClock	24	static
+../Core/Src/i2c.c:28:6:MX_I2C2_Init	72	static

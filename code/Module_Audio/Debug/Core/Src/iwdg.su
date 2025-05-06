@@ -1,7 +1,0 @@
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:141:22:LL_IWDG_Enable	16	static
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:152:22:LL_IWDG_ReloadCounter	16	static
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:163:22:LL_IWDG_EnableWriteAccess	16	static
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:193:22:LL_IWDG_SetPrescaler	16	static
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:223:22:LL_IWDG_SetReloadCounter	16	static
-../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_iwdg.h:311:26:LL_IWDG_IsReady	16	static
-../Core/Src/iwdg.c:28:6:MX_IWDG_Init	8	static

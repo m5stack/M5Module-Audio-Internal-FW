@@ -1,4 +1,4 @@
-# M5Module Fan Internal Firmware
+# M5Module Audio Internal Firmware
 
 ### SKU: M144
 

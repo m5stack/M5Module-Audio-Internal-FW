@@ -29,7 +29,7 @@ extern __IO uint8_t rgb_light_reg;         // RGB light status register
 extern __IO RGB_Color_TypeDef rgb_reg[3];  // RGB color buffer for each LED
 
 void rgb_init(void);                                          // Initialize RGB LED system
-void activate_tim_dma(void);                                 // Initialize DMA with TIM1
+void activate_tim_dma(void);                                  // Initialize DMA with TIM1
 void set_rgb_color(uint8_t led_id, RGB_Color_TypeDef color);  // Load color data to a specific LED
 void rgb_update(void);                                        // Update RGB LED status
 void reset_load(void);                                        // Append reset code (24 zeros)

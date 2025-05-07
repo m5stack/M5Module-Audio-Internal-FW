@@ -259,7 +259,7 @@ void write_code(void)
     uint32_t Add_Flash, end_add_flash;
     uint64_t Data       = 0;
     uint16_t Data_index = 8;
-    uint32_t PageError  = 0;  // 设置PageError,如果出现错误这个变量会被设置为出错的FLASH地址
+    uint32_t PageError  = 0;  
     FLASH_EraseInitTypeDef My_Flash;
     uint32_t PageNum = 0;
 
@@ -280,16 +280,15 @@ void write_code(void)
 
         PageNum = get_page(Add_Flash);
 
-        My_Flash.TypeErase = FLASH_TYPEERASE_PAGES;  // 标明Flash执行页面只做擦除操作
+        My_Flash.TypeErase = FLASH_TYPEERASE_PAGES;  
         My_Flash.Page      = PageNum;
-        My_Flash.NbPages   = 1;  // 说明要擦除的页数，此参数必须是Min_Data = 1和Max_Data
-                               // =(�???????大页�???????-初始页的�???????)之间的�??
+        My_Flash.NbPages   = 1;  
 
     step_erase:
         FLASH_WaitForLastOperation(50);
         if (HAL_FLASHEx_Erase(&My_Flash, &PageError) != HAL_OK) {
             goto step_erase;
-        }  // 调用擦除函数擦除
+        }  
 
         while (Add_Flash < end_add_flash) {
             Data = Receive_Buffer[Data_index] | ((uint64_t)Receive_Buffer[Data_index + 1] << 8) |
